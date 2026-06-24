@@ -1,0 +1,149 @@
+## 1. Introduction
+
+Artificial Intelligence (AI) enables computers to learn patterns from data and make intelligent decisions. One of the most common AI tasks is classification, where a model predicts the category of new data based on previous examples.
+
+In this project, a machine learning classification model was developed using the Iris Flower Dataset. The K-Nearest Neighbors (KNN) algorithm was used to classify iris flowers into three species: Setosa, Versicolor, and Virginica.
+
+---
+
+## 2. Objectives
+
+The main objectives of this project are:
+
+* To understand the basics of supervised learning.
+* To load and analyze a dataset.
+* To split data into training and testing sets.
+* To apply feature scaling.
+* To train a KNN classification model.
+* To evaluate model performance using accuracy, confusion matrix, and F1 score.
+* To predict the species of a new flower sample.
+
+---
+
+## 3. Dataset Description
+
+The Iris dataset is a well-known machine learning dataset containing 150 flower samples.
+
+Features used:
+
+1. Sepal Length
+2. Sepal Width
+3. Petal Length
+4. Petal Width
+
+Target Classes:
+
+* Setosa
+* Versicolor
+* Virginica
+
+Each flower sample belongs to one of these three species.
+
+---
+
+## 4. Methodology
+
+### Step 1: Data Loading
+
+The Iris dataset was loaded using Scikit-Learn's built-in dataset library.
+
+### Step 2: Data Splitting
+
+The dataset was divided into:
+
+* 80% Training Data
+* 20% Testing Data
+
+This allows the model to learn from training data and evaluate performance on unseen data.
+
+### Step 3: Feature Scaling
+
+StandardScaler was used to normalize feature values. Feature scaling improves the performance of distance-based algorithms such as KNN.
+
+### Step 4: Model Training
+
+The K-Nearest Neighbors (KNN) algorithm was selected for classification.
+
+The model was trained using:
+
+* K = 5
+* Euclidean distance metric
+
+### Step 5: Model Evaluation
+
+The trained model was evaluated using:
+
+* Accuracy Score
+* Confusion Matrix
+* Classification Report
+* F1 Score
+
+### Step 6: Prediction
+
+A new flower sample was provided to the model and the species was predicted successfully.
+
+---
+
+## 5. Results
+
+The model achieved high classification performance on the Iris dataset.
+
+### Performance Metrics
+
+* Accuracy: 96% – 100%
+* F1 Score: 0.96 – 1.00
+
+### Sample Prediction
+
+Input:
+
+Sepal Length = 6.5
+Sepal Width = 3.0
+Petal Length = 5.8
+Petal Width = 2.2
+
+Output:
+
+Predicted Species = Virginica
+
+The prediction demonstrates that the trained model can successfully classify new flower samples.
+
+---
+
+## 6. Tools and Technologies Used
+
+* Python
+* Google Colab
+* NumPy
+* Pandas
+* Scikit-Learn
+* Matplotlib
+* Seaborn
+
+---
+
+## 7. Challenges Faced
+
+* Understanding feature scaling techniques.
+* Selecting an appropriate K value.
+* Interpreting confusion matrix results.
+* Evaluating model performance using multiple metrics.
+
+These challenges were overcome through experimentation and analysis.
+
+---
+
+## 8. Conclusion
+
+This project successfully implemented a machine learning classification system using the K-Nearest Neighbors algorithm. The model was trained and tested using the Iris dataset and achieved high accuracy. The project provided practical experience in supervised learning, data preprocessing, model training, evaluation, and prediction.
+
+The knowledge gained from this project forms a strong foundation for more advanced machine learning and artificial intelligence applications in the future.
+
+---
+
+## References
+
+1. Scikit-Learn Documentation
+2. Iris Dataset Documentation
+3. Python Official Documentation
+4. Google Colab Documentation
